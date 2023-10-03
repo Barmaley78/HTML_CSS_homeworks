@@ -401,11 +401,9 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
-}
-
-.footer_bg {
-    /* width: 100%; */
-    opacity: 0.4;
+    background-image: url(img/footer_bg.jpg);
+    background-size: cover;
+    height: 448px;
 }
 
 .FC_items {
@@ -591,10 +589,12 @@ a {
     .footer_menu_item {
         width: 40%;
     }
-    .footer_bg {
+    .footer_content {
         height: 693px;
-        flex-shrink: 0;
+    }
+    .footer_bg_img {
         object-fit: cover;
+        overflow: hidden;
     }
     .FC_items {
         flex-direction: column;
@@ -626,7 +626,7 @@ a {
     .footer_links {
         flex-direction: column-reverse;
     }
-    .footer_bg {
+    .footer_content {
         height: 550px;
     }
     .FC_text {
